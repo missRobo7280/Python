@@ -1,0 +1,29 @@
+#list methods
+#1 append: adds an element to the end of the list
+l1=[2,3,4]
+l1.append(5)
+print(l1)
+#2 count() : it returns the count of the specified element present in the list
+l2=[1,2,3,4,5,5,5,6,7,7,7,5,5,5,10,16]
+print(l2.count(5))
+print(l2.count(7))
+#3 insert:it inserts an element at the specified position
+l1.insert(2,7)#it means insert 7 at position number 2
+print(l1)
+#4 pop(): it pops the last element of the list or pops the element at the specified index
+l2.pop()
+print(l2)
+l1.pop(3)
+print(l1)
+#5 index: returns the index of the element's first occurrence in  the list
+print(l2.index(5))
+#6 clear: it removes all the elements from the list or basically clears the contents of the list
+l1.clear()
+print(l1)
+#7 del :it either deletes the the element at the specified postion or deletes the complete list 
+
+l3=[3,5,4,5,3,43,3,24,234244,1]
+print(l3)
+del l3
+#print(l3) #it will give an output as  name 'l3 ' is not  defined
+
