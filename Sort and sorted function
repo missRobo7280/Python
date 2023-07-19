@@ -1,0 +1,16 @@
+#using the sort function
+l=[1,4,-5,34,2,-4,-34345,24323322]
+print(sorted(l))
+#using the sort function with the key parameter
+
+def my_func(n):
+    return abs(n-50)
+l=[34,67,56,45,47,89,39]
+l.sort()
+print(l)
+l.sort(key=my_func)
+print(l)
+#using the sort function with reverse parameter
+l2=[23,56,45,78,4,5,23]
+l2.sort(reverse=True)
+print(l2)
