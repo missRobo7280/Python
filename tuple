@@ -18,3 +18,8 @@ print(*tup4)
 #accesing the items of the tuple
 #we can use indexing eiither positive or negative indexing
 print(tup1[2])
+# accessing the values in  a range
+print(tup4[2:5])
+#checking if the item existes in the tuple
+if 'a' in tup4:
+print("YES")
