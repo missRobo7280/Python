@@ -1,0 +1,9 @@
+#copy the contents of the list
+#using the copy() function
+list1=[1,2,3,"swati"]
+list2=list1.copy()
+print(list1)
+print(list2)
+#using the list() function
+list3=list(list1)
+print(list3)
