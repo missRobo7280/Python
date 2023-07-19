@@ -1,0 +1,12 @@
+#join lists
+#1 using the + operator
+l1=[1,2,3,4,5,6,7]
+l2=['a','b','c']
+print(l1+l2)
+#2 using the append function
+for x in l2:
+    l1.append(x)
+print(l1)
+#3 using the extend function
+l1.extend(l2)
+print(l1)
