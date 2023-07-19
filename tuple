@@ -1,3 +1,9 @@
+#Python collections(Arrays)
+#Lists:mutable
+#Sets:ordered and immutable
+#Dictionary :;store ley: value pairs
+#Tuples: ordered and mutable 
+
 #TUPLE : ordered, unchangeable, allow duplicates
 tup1=(1,2,3,4,4)
 print(type(tup1))
